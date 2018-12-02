@@ -1,0 +1,41 @@
+/* General */
+
+/* Logo */
+#logo img {
+  margin-top: 30px;
+  width: 30%;
+  height: auto;
+}
+
+/* Formulaire */
+#carte {
+  border: 1px solid black;
+  height: 400px;
+}
+
+#timbre {
+  border: 1px dotted black;
+  width: 80px;
+  height: 100px;
+  margin-left: 30em;
+  margin-top: 20px;
+}
+
+/* Bouton envoyer */
+#envoyer {
+  /*margin-top: 80px;*/
+  font-family: 'Cinzel', serif;
+  color: white;
+  background-color: rgba(140,0, 0, .6);
+  width: 120px;
+  padding: 3px;
+  border-radius:6px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px black;
+}
+
+#envoyer:hover {
+  background-color: rgba(140,0, 0, .3)
+}

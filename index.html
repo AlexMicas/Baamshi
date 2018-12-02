@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Baamshi</title>
+  <!--Favicon-->
+  <link rel="shortcut icon" href=".ico">
+  <!-- Reset mise en page -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Feuilles de style-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Framework materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Fonts Icones google -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- La vidéo -->
+
+  <video id="Video1" autoplay muted loop>
+    <source src="Videos/siteEnTravaux.mp4" type="video/mp4">
+    </video>
+
+
+    <!-- Header -->
+
+    <div class="row" id="header">
+      <!-- Logo -->
+      <div class="col s12 m12 l12 center-align">
+        <img id="logo" class="responsive-img" src="images/1Logo_BORDEAU.png" alt="logo" height=100 width=400>
+      </div>
+
+      <!-- phrase accroche -->
+      <div class="col s12 m12 l12 center-align">
+        <h6 id="accroche">les fabuleuses trouvailles d'une globe-shoppeuse sur la route des artisans</h6>
+      </div>
+
+      <!-- Bouton déroulant -->
+      <div class="col s12 m12 l12 center-align">
+        <a id="menu" onclick="maFonction(), buttonClick()" class="btn-floating btn-large pulse"><i class="large material-icons center-align" >arrow_downward</i></a>
+      </div>
+
+      <!-- Contenu textes -->
+      <div id="contenu" class="col s12 m12 l12 center-align">
+        <h4>notre site est en construction</h4><br>
+        <hr><br>
+        <!-- bouton nous contacter -->
+        <a href="contact.php" target="_blank"><p id="contact">nous contacter</p><br></a>
+        <hr><br>
+        <h6 id="reseaux">suivez-nous sur les réseaux sociaux</h6><br>
+        <a href="https://www.facebook.com/baamshi/" target="_blank"><i class="fab fa-facebook-square" id="facebook"></a></i><br><br>
+        <span>&copy 2018</span>
+      </div>
+
+    </div>
+
+    <!-- Bouton plein écran -->
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <p onclick="fullScreen()" id="pleinecran">plein écran</p>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+
+  </body>
+  <script src="Script/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  </html>
